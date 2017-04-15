@@ -1,0 +1,57 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+form {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 3em;
+    vertical-align: top;
+    line-height: 2em;
+}
+
+.name_wrap {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.name_wrap span {
+    font-size: 15px;
+    color: #BBB3B3;
+}
+
+input {
+    border-radius: 10px;
+    height: 2em;
+}
+
+#name {
+    border: 3px solid #D9D2D2;
+}
+
+#verify {
+    background: #4198F5;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    vertical-align: top;
+}
+
+.empty {
+    color: red !important;
+    border-color: red !important;
+}
+
+.correct {
+    color: green  !important;
+    border-color: green  !important;
+}
