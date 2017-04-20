@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    font-size: 2vw;
+    box-sizing: border-box;
+}
+
+form {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    font-family: "Microsoft yahei";
+    padding-right: 1em;
+    text-align: right;
+    display: inline-block;
+    width: 6em;
+    vertical-align: top;
+    line-height: 2em;
+}
+
+.wrap {
+    margin: 30px;
+    text-align: center;
+}
+
+
+/*使输入框和下面的提示性语句对齐*/
+
+.input_wrap {
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+    text-align: left;
+}
+
+.input_style:focus{
+	border-color: #2F9AD9;
+	box-shadow: 0px 0px  10px  #BBD7E8;
+}
+
+.wrap span {
+    font-size: 15px;
+    color: #BBB3B3;
+}
+
+input {
+    display: inline-block;
+    border-radius: 6px;
+    height: 2em;
+    width: 80%;
+}
+
+.input_style {
+    border: 3px solid #D9D2D2;
+}
+
+#verify, #reset {
+    font-weight: bold;
+    width: 3em;
+    background: #4198F5;
+    margin: 2em 3em;
+    vertical-align: top;
+}
+
+.empty {
+    color: red !important;
+    border-color: red !important;
+}
+
+.correct {
+    color: #2DE36E !important;
+    border-color: #2DE36E !important;
+    font-weight: bold;
+}
+
+.hidden{
+	visibility: hidden;
+	/*display: none;*/
+}

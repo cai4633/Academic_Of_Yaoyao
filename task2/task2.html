@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表单验证<二></title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="initial.css"/>
+	<script type="text/javascript" src='initial.js'></script>
+</head>
+<body>
+	<form action="" method="get">
+		<div class="wrap">
+			<label for="name">名称</label>
+			<div class="input_wrap">
+				<input type="text" name="verification" id="name" class="input_style"  placeholder="winter"/><br/>
+				<span class="hidden novation">必填，长度为4-16个字符</span>
+			</div>	
+		</div>
+
+		<div class="wrap">
+			<label for="password">密码</label>
+			<div class="input_wrap">
+				<input type="password" name="verification" id="password" class="input_style" placeholder="********" /><br/>
+				<span class="hidden novation">密码长度为8-16个字符</span>
+			</div>		
+		</div>
+
+		<div class="wrap">
+			<label for="passwordConfirm">密码确认</label>
+			<div class="input_wrap">
+				<input type="password" name="verification" id="passwordConfirm" class="input_style"  placeholder="********"/><br/>
+				<span class="hidden novation">再次输入你设置的密码</span>
+			</div>		
+		</div>
+
+		<div class="wrap">
+			<label for="mail">邮箱</label>
+			<div class="input_wrap">
+				<input type="text" name="verification" id="mail" class="input_style"  placeholder="abcdef@qq.com" /><br/>
+				<span class="hidden novation">请输入正确的邮箱</span>
+			</div>		
+		</div>
+
+		<div class="wrap">
+			<label for="phone">手机</label>
+			<div class="input_wrap">
+				<input type="text" name="verification" id="phone" class="input_style" placeholder="134****7123"/><br/>
+				<span class="hidden novation">请输入正确的手机号</span>
+			</div>	
+		</div>
+		<input type="button" name="verification" id="verify" value="验证"/>
+		<input type="reset" name="reset"  id="reset" value="重置"/>
+	</form>
+</body>
+</html>
