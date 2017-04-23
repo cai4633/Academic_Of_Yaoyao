@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表单联动</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="initial.css"/>
+	<script type="text/javascript" src='initial.js'></script>
+</head>
+<body>
+	<form method="get" action="" id="formLinkage">
+
+	<!-- 在校生和非在校生选择 -->
+	<div  id="profession_wrap">		
+			<input type="radio" class="profession" name="profession" value="在校生" id="student" checked="" />  		<label for="student">在校生</label>
+			<input type="radio" class="profession" name="profession" value="非在校生"  id="non-student" />		<label for="non-student">非在校生</label>
+	</div>
+	
+	<div  id="students_option"  >
+			学校      <select id="city" >
+					<option value="北京" id="city_beijing">北京</option>
+					<option value="武汉" id="city_wuhan">武汉</option>
+					<option value="上海" id="city_shanghai">上海</option>
+				</select>
+
+				<select class="university" id="university_beijing">
+					<option value="北京大学">北京大学</option>
+					<option value="清华大学">清华大学</option>
+					<option value="北京电影学院">北京电影学院</option>
+				</select>
+
+				<select class="hidden university" id="university_wuhan">
+					<option value="武汉大学">武汉大学</option>
+					<option value="武汉理工大学">武汉理工大学</option>
+					<option value="华中科技大学">华中科技大学</option>
+				</select>
+
+				<select  class="hidden university" id="university_shanghai">
+					<option value="上海交通大学">上海交通大学</option>
+					<option value="复旦大学">复旦大学</option>
+					<option value="上海大学">上海大学</option>
+				</select>		
+	</div>
+
+	<div  id="non-students_option" class="hidden">
+			就业单位：<input type="text" id="profession" />  
+	</div>
+	</form>
+</body>
+</html>
