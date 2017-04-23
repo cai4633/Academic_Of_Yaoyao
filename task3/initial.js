@@ -5,6 +5,7 @@ window.onload=function(){
 // 在校生和非在校生选项卡切换；
 function radioSwitch(){
 	var radio=document.getElementsByClassName('profession');
+	cityToUniversity();
 	for (var i = 0; i < radio.length; i++) {
 		radio[i].onchange=function(){	// 给radio绑定change事件；
 			if (this.checked&&this.value=="在校生") {	//判断radio的选择值；
